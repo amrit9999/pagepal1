@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PagePal — India’s Most Student-Friendly Academic Resource Exchange</title>
+  <meta name="description" content="PagePal — India’s Most Student-Friendly Academic Resource Exchange. Notes, PYQs, and resources shared by students for students." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <!-- Replace the image file below with your attached logo saved at assets/logo.png -->
+      <img src="assets/logo.png" alt="PagePal logo" class="logo" onerror="this.src='assets/logo-placeholder.svg'"/>
+      <div class="brand-text">
+        <h1>PagePal</h1>
+        <p class="tagline">India’s Most Student-Friendly Academic Resource Exchange.</p>
+      </div>
+    </div>
+
+    <nav class="menu" aria-label="Main menu">
+      <h3>Universities</h3>
+      <ul>
+        <li><a href="#pyqs-delhi">Delhi University</a></li>
+        <li><a href="#pyqs-mumbai">Mumbai University</a></li>
+        <li><a href="#pyqs-lucknow">Lucknow University</a></li>
+      </ul>
+
+      <h3>Subjects</h3>
+      <button aria-expanded="true" class="collapse-btn" id="subjects-toggle">Toggle subjects ▾</button>
+      <ul id="subjects-list">
+        <li><a href="#subject-macroeconomics">Macroeconomics</a></li>
+        <li><a href="#subject-stats">Statistics</a></li>
+        <li><a href="#subject-accounts">Accounts</a></li>
+        <li><a href="#subject-physics">Physics</a></li>
+        <li><a href="#subject-chemistry">Chemistry</a></li>
+        <li><a href="#subject-biology">Biology</a></li>
+        <li><a href="#subject-maths">Mathematics</a></li>
+      </ul>
+
+      <div class="spacer"></div>
+
+      <a class="contact-link" href="#contact">Contact</a>
+    </nav>
+  </aside>
+
+  <main class="content" id="main-content">
+    <section class="hero" aria-labelledby="welcome-heading">
+      <div class="hero-inner">
+        <h2 id="welcome-heading">Welcome to PagePal</h2>
+        <p class="hero-desc">Student-made notes, past papers, and quick revision kits — shared with love (and the occasional chai stain).</p>
+        <p class="microcopy">No fluff. Just useful stuff — and some memes to keep you sane during revision week.</p>
+      </div>
+
+      <img class="sticker sticker-topright" src="assets/sticker-book1.svg" alt="book sticker" />
+      <img class="sticker sticker-bottomleft" src="assets/sticker-book2.svg" alt="book sticker" />
+    </section>
+
+    <section id="subject-distribution" class="section">
+      <h3>Subject Resource Distribution</h3>
+      <p class="section-note">Quick snapshot of what's popular — click a subject to view resources (or open it in a new tab if you're avoiding human interaction).</p>
+
+      <div class="subjects-grid">
+        <article class="subject-card" id="subject-macroeconomics">
+          <h4>Macroeconomics</h4>
+          <p class="meta">Resources: 24</p>
+          <p>Notes, lecture summaries, model answers and short memes about GDP.</p>
+          <a class="btn" href="#resources-macroeconomics">View resources</a>
+        </article>
+
+        <article class="subject-card" id="subject-stats">
+          <h4>Statistics</h4>
+          <p class="meta">Resources: 18</p>
+          <p>Problem sets, formula crib-sheets, and 'I swear this is the last distribution question' walkthroughs.</p>
+          <a class="btn" href="#resources-stats">View resources</a>
+        </article>
+
+        <article class="subject-card" id="subject-accounts">
+          <h4>Accounts</h4>
+          <p class="meta">Resources: 12</p>
+          <p>Balance sheet templates, solved papers and practical cheat-sheets (accountant-approved-ish).</p>
+          <a class="btn" href="#resources-accounts">View resources</a>
+        </article>
+
+        <article class="subject-card" id="subject-physics">
+          <h4>Physics</h4>
+          <p class="meta">Resources: 30</p>
+          <p>Theory notes, experiment guides, and 'how to not lose marks on 2-mark questions' tips.</p>
+          <a class="btn" href="#resources-physics">View resources</a>
+        </article>
+
+        <article class="subject-card" id="subject-chemistry">
+          <h4>Chemistry</h4>
+          <p class="meta">Resources: 20</p>
+          <p>Reaction maps, solved numericals and some aromatic jokes (they're benzene-ius!).</p>
+          <a class="btn" href="#resources-chemistry">View resources</a>
+        </article>
+
+        <article class="subject-card" id="subject-biology">
+          <h4>Biology</h4>
+          <p class="meta">Resources: 14</p>
+          <p>Diagrams, mnemonics and 'remember this or your TA will cry' notes.</p>
+          <a class="btn" href="#resources-biology">View resources</a>
+        </article>
+
+        <article class="subject-card" id="subject-maths">
+          <h4>Mathematics</h4>
+          <p class="meta">Resources: 28</p>
+          <p>Proofs, solved problem sets and that one integrand we all fear.</p>
+          <a class="btn" href="#resources-maths">View resources</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="pyqs" class="section">
+      <h3>Past Year Questions (PYQs)</h3>
+      <p class="section-note">Past papers curated by students — perfect for timed practice and last-minute anxiety tests.</p>
+
+      <article class="pyq-block" id="pyqs-delhi">
+        <h4>Delhi University</h4>
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener">DU Economics — 2024 Paper (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">DU Physics — 2023 Paper (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">DU Commerce — Selected PYQs</a></li>
+        </ul>
+      </article>
+
+      <article class="pyq-block" id="pyqs-mumbai">
+        <h4>Mumbai University</h4>
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener">MU Statistics — 2024 Paper (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">MU Chemistry — 2022 Paper (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">MU Maths — Selected PYQs</a></li>
+        </ul>
+      </article>
+
+      <article class="pyq-block" id="pyqs-lucknow">
+        <h4>Lucknow University</h4>
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener">LU Accounts — 2023 Paper (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LU Biology — 2021 Paper (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LU Economics — Selected PYQs</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <h3 id="contact-heading">Contact</h3>
+      <p><strong>Founder:</strong> Amrit Yadav</p>
+      <p><strong>Email:</strong> <a href="mailto:starkaa099@gmail.com">starkaa099@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amrit-yadav-b29637359" target="_blank" rel="noopener">www.linkedin.com/in/amrit-yadav-b29637359</a></p>
+      <p class="microcopy">If you have resources to share, drop an email — we promise to return the favor with virtual high-fives.</p>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> PagePal — Made with ❤️, chai and the occasional calculator.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
